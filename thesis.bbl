@@ -1,0 +1,25 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[梁辉(2016)]{Liang2016}
+梁辉.
+\newblock {南海北部内潮与近惯性内波观测研究}\allowbreak[D].
+\newblock 中国海洋大学, 2016.
+
+\bibitem[张培超\ 等(2024)张培超, 王刚, 戴德君, 乔方利, and 黄传江]{Zhang2024}
+张培超, 王刚, 戴德君, 等.
+\newblock 安达曼海南部内孤立波生成与传播的三维数值模拟\allowbreak[J/OL].
+\newblock 海洋科学进展, 2024, 42\allowbreak (3): 452-465.
+\newblock \url{https://www.ams-journal.org.cn/website/cn/article/doi/10.12362/j.issn.1671-6647.20230621001}.
+
+\end{thebibliography}
