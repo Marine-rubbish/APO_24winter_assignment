@@ -1,5 +1,6 @@
 *
 !.gitignore
-!./*.tex
-!./*.bib
+!*.pdf
+!*.tex
+!*.bib
 !./figures/fig*.png
